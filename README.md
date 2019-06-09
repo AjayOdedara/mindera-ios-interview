@@ -1,2 +1,2 @@
-# test_mindera
+# Take Home Test Mindera
 Image gallery app
