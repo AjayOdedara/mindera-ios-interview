@@ -8,23 +8,42 @@
 
 import UIKit
 
-class PhotoDetailViewController: UIViewController {
-
+class PhotoDetailViewController: UIViewController{
+    var photo: Photo? = nil
+    @IBOutlet weak var imageView: CacheMemoryImageView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.navigationItem.largeTitleDisplayMode = .never
+        self.activityIndicator.stopAnimating()
+        
+        if let _ = photo, let highResPhotoURL = photo?.highResPhotoURL{
+            if CachedMemoryManager.shared.isImageCached(for: highResPhotoURL.absoluteString){
+                imageView.loadImage(atURL: highResPhotoURL)
+            } else if let thumbnailURL = photo?.thumbnailURL{
+                imageView.loadImage(atURL: thumbnailURL)
+                activityIndicator.startAnimating()
+                imageView.loadImage(atURL: highResPhotoURL, placeHolder: false, completion: {[weak self] in
+                    DispatchQueue.main.async {
+                        self?.activityIndicator.stopAnimating()
+                    }
+                })
+            }
+        }
+        
+        //Adds a GestureRecognizer for downward swipes that calls swipeDown()
+        let swipeDownGestureRec = UISwipeGestureRecognizer(target: self, action: #selector(swipeDown))
+        swipeDownGestureRec.direction = .down
+        self.view.addGestureRecognizer(swipeDownGestureRec)
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    //Dismisses the ViewController
+    @objc func swipeDown() {
+        dismiss(animated: true, completion: nil)
     }
-    */
-
+    @IBAction func closePresentAction(_ sender: Any) {
+        swipeDown()
+    }
+    
 }
