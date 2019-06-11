@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A3AE5C322AD39C2004B88AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AE5C222AD39C2004B88AB /* AppDelegate.swift */; };
+		9A3AE5C522AD39C2004B88AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AE5C422AD39C2004B88AB /* ViewController.swift */; };
+		9A3AE5C822AD39C2004B88AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3AE5C622AD39C2004B88AB /* Main.storyboard */; };
+		9A3AE5CA22AD39C5004B88AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3AE5C922AD39C5004B88AB /* Assets.xcassets */; };
+		9A3AE5CD22AD39C5004B88AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3AE5CB22AD39C5004B88AB /* LaunchScreen.storyboard */; };
+		9A3AE5D822AD39C6004B88AB /* Mindera_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AE5D722AD39C6004B88AB /* Mindera_TestTests.swift */; };
+		9A3AE5E322AD39C6004B88AB /* Mindera_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AE5E222AD39C6004B88AB /* Mindera_TestUITests.swift */; };
+		9A51F6B822AFC6EA00C7F9AE /* PhotoNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A51F6B722AFC6EA00C7F9AE /* PhotoNetworkManager.swift */; };
+		9A51F6BA22AFC75B00C7F9AE /* CachedMemoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A51F6B922AFC75B00C7F9AE /* CachedMemoryManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A3AE5D422AD39C6004B88AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3AE5B722AD39C1004B88AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A3AE5BE22AD39C2004B88AB;
+			remoteInfo = "Mindera Test";
+		};
+		9A3AE5DF22AD39C6004B88AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3AE5B722AD39C1004B88AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A3AE5BE22AD39C2004B88AB;
+			remoteInfo = "Mindera Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A3AE5BF22AD39C2004B88AB /* Mindera Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindera Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3AE5C222AD39C2004B88AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A3AE5C422AD39C2004B88AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A3AE5C722AD39C2004B88AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A3AE5C922AD39C5004B88AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A3AE5CC22AD39C5004B88AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A3AE5CE22AD39C5004B88AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3AE5D322AD39C6004B88AB /* Mindera TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindera TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3AE5D722AD39C6004B88AB /* Mindera_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindera_TestTests.swift; sourceTree = "<group>"; };
+		9A3AE5D922AD39C6004B88AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3AE5DE22AD39C6004B88AB /* Mindera TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindera TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3AE5E222AD39C6004B88AB /* Mindera_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindera_TestUITests.swift; sourceTree = "<group>"; };
+		9A3AE5E422AD39C6004B88AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A51F6B722AFC6EA00C7F9AE /* PhotoNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoNetworkManager.swift; sourceTree = "<group>"; };
+		9A51F6B922AFC75B00C7F9AE /* CachedMemoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedMemoryManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A3AE5BC22AD39C2004B88AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3AE5D022AD39C6004B88AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3AE5DB22AD39C6004B88AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A3AE5B622AD39C1004B88AB = {
+			isa = PBXGroup;
+			children = (
+				9A3AE5C122AD39C2004B88AB /* Mindera Test */,
+				9A3AE5D622AD39C6004B88AB /* Mindera TestTests */,
+				9A3AE5E122AD39C6004B88AB /* Mindera TestUITests */,
+				9A3AE5C022AD39C2004B88AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A3AE5C022AD39C2004B88AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A3AE5BF22AD39C2004B88AB /* Mindera Test.app */,
+				9A3AE5D322AD39C6004B88AB /* Mindera TestTests.xctest */,
+				9A3AE5DE22AD39C6004B88AB /* Mindera TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A3AE5C122AD39C2004B88AB /* Mindera Test */ = {
+			isa = PBXGroup;
+			children = (
+				9A3AE5C222AD39C2004B88AB /* AppDelegate.swift */,
+				9A3AE5C422AD39C2004B88AB /* ViewController.swift */,
+				9A51F6B622AFC6D700C7F9AE /* NetworkManager */,
+				9A3AE5C622AD39C2004B88AB /* Main.storyboard */,
+				9A3AE5C922AD39C5004B88AB /* Assets.xcassets */,
+				9A3AE5CB22AD39C5004B88AB /* LaunchScreen.storyboard */,
+				9A3AE5CE22AD39C5004B88AB /* Info.plist */,
+			);
+			path = "Mindera Test";
+			sourceTree = "<group>";
+		};
+		9A3AE5D622AD39C6004B88AB /* Mindera TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A3AE5D722AD39C6004B88AB /* Mindera_TestTests.swift */,
+				9A3AE5D922AD39C6004B88AB /* Info.plist */,
+			);
+			path = "Mindera TestTests";
+			sourceTree = "<group>";
+		};
+		9A3AE5E122AD39C6004B88AB /* Mindera TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A3AE5E222AD39C6004B88AB /* Mindera_TestUITests.swift */,
+				9A3AE5E422AD39C6004B88AB /* Info.plist */,
+			);
+			path = "Mindera TestUITests";
+			sourceTree = "<group>";
+		};
+		9A51F6B622AFC6D700C7F9AE /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				9A51F6B722AFC6EA00C7F9AE /* PhotoNetworkManager.swift */,
+				9A51F6B922AFC75B00C7F9AE /* CachedMemoryManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A3AE5BE22AD39C2004B88AB /* Mindera Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3AE5E722AD39C6004B88AB /* Build configuration list for PBXNativeTarget "Mindera Test" */;
+			buildPhases = (
+				9A3AE5BB22AD39C2004B88AB /* Sources */,
+				9A3AE5BC22AD39C2004B88AB /* Frameworks */,
+				9A3AE5BD22AD39C2004B88AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mindera Test";
+			productName = "Mindera Test";
+			productReference = 9A3AE5BF22AD39C2004B88AB /* Mindera Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A3AE5D222AD39C6004B88AB /* Mindera TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3AE5EA22AD39C6004B88AB /* Build configuration list for PBXNativeTarget "Mindera TestTests" */;
+			buildPhases = (
+				9A3AE5CF22AD39C6004B88AB /* Sources */,
+				9A3AE5D022AD39C6004B88AB /* Frameworks */,
+				9A3AE5D122AD39C6004B88AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A3AE5D522AD39C6004B88AB /* PBXTargetDependency */,
+			);
+			name = "Mindera TestTests";
+			productName = "Mindera TestTests";
+			productReference = 9A3AE5D322AD39C6004B88AB /* Mindera TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A3AE5DD22AD39C6004B88AB /* Mindera TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3AE5ED22AD39C6004B88AB /* Build configuration list for PBXNativeTarget "Mindera TestUITests" */;
+			buildPhases = (
+				9A3AE5DA22AD39C6004B88AB /* Sources */,
+				9A3AE5DB22AD39C6004B88AB /* Frameworks */,
+				9A3AE5DC22AD39C6004B88AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A3AE5E022AD39C6004B88AB /* PBXTargetDependency */,
+			);
+			name = "Mindera TestUITests";
+			productName = "Mindera TestUITests";
+			productReference = 9A3AE5DE22AD39C6004B88AB /* Mindera TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A3AE5B722AD39C1004B88AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ajay Odedra";
+				TargetAttributes = {
+					9A3AE5BE22AD39C2004B88AB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9A3AE5D222AD39C6004B88AB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9A3AE5BE22AD39C2004B88AB;
+					};
+					9A3AE5DD22AD39C6004B88AB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9A3AE5BE22AD39C2004B88AB;
+					};
+				};
+			};
+			buildConfigurationList = 9A3AE5BA22AD39C1004B88AB /* Build configuration list for PBXProject "Mindera Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A3AE5B622AD39C1004B88AB;
+			productRefGroup = 9A3AE5C022AD39C2004B88AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A3AE5BE22AD39C2004B88AB /* Mindera Test */,
+				9A3AE5D222AD39C6004B88AB /* Mindera TestTests */,
+				9A3AE5DD22AD39C6004B88AB /* Mindera TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A3AE5BD22AD39C2004B88AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3AE5CD22AD39C5004B88AB /* LaunchScreen.storyboard in Resources */,
+				9A3AE5CA22AD39C5004B88AB /* Assets.xcassets in Resources */,
+				9A3AE5C822AD39C2004B88AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3AE5D122AD39C6004B88AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3AE5DC22AD39C6004B88AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A3AE5BB22AD39C2004B88AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A51F6BA22AFC75B00C7F9AE /* CachedMemoryManager.swift in Sources */,
+				9A3AE5C522AD39C2004B88AB /* ViewController.swift in Sources */,
+				9A3AE5C322AD39C2004B88AB /* AppDelegate.swift in Sources */,
+				9A51F6B822AFC6EA00C7F9AE /* PhotoNetworkManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3AE5CF22AD39C6004B88AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3AE5D822AD39C6004B88AB /* Mindera_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3AE5DA22AD39C6004B88AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3AE5E322AD39C6004B88AB /* Mindera_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A3AE5D522AD39C6004B88AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A3AE5BE22AD39C2004B88AB /* Mindera Test */;
+			targetProxy = 9A3AE5D422AD39C6004B88AB /* PBXContainerItemProxy */;
+		};
+		9A3AE5E022AD39C6004B88AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A3AE5BE22AD39C2004B88AB /* Mindera Test */;
+			targetProxy = 9A3AE5DF22AD39C6004B88AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A3AE5C622AD39C2004B88AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3AE5C722AD39C2004B88AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A3AE5CB22AD39C5004B88AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3AE5CC22AD39C5004B88AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A3AE5E522AD39C6004B88AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A3AE5E622AD39C6004B88AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A3AE5E822AD39C6004B88AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJKK7Y7PP4;
+				INFOPLIST_FILE = "Mindera Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aj.Mindera-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A3AE5E922AD39C6004B88AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJKK7Y7PP4;
+				INFOPLIST_FILE = "Mindera Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aj.Mindera-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A3AE5EB22AD39C6004B88AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJKK7Y7PP4;
+				INFOPLIST_FILE = "Mindera TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aj.Mindera-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mindera Test.app/Mindera Test";
+			};
+			name = Debug;
+		};
+		9A3AE5EC22AD39C6004B88AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJKK7Y7PP4;
+				INFOPLIST_FILE = "Mindera TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aj.Mindera-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mindera Test.app/Mindera Test";
+			};
+			name = Release;
+		};
+		9A3AE5EE22AD39C6004B88AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJKK7Y7PP4;
+				INFOPLIST_FILE = "Mindera TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aj.Mindera-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mindera Test";
+			};
+			name = Debug;
+		};
+		9A3AE5EF22AD39C6004B88AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJKK7Y7PP4;
+				INFOPLIST_FILE = "Mindera TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aj.Mindera-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mindera Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A3AE5BA22AD39C1004B88AB /* Build configuration list for PBXProject "Mindera Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3AE5E522AD39C6004B88AB /* Debug */,
+				9A3AE5E622AD39C6004B88AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3AE5E722AD39C6004B88AB /* Build configuration list for PBXNativeTarget "Mindera Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3AE5E822AD39C6004B88AB /* Debug */,
+				9A3AE5E922AD39C6004B88AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3AE5EA22AD39C6004B88AB /* Build configuration list for PBXNativeTarget "Mindera TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3AE5EB22AD39C6004B88AB /* Debug */,
+				9A3AE5EC22AD39C6004B88AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3AE5ED22AD39C6004B88AB /* Build configuration list for PBXNativeTarget "Mindera TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3AE5EE22AD39C6004B88AB /* Debug */,
+				9A3AE5EF22AD39C6004B88AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A3AE5B722AD39C1004B88AB /* Project object */;
+}
