@@ -4,9 +4,13 @@ Image gallery app || Flickr Search
 
 # Completed Requirements 
 UI
+
 Network Layer
+
 Parsing
+
 Unit Tests
+
 Language
 
 # Extras
