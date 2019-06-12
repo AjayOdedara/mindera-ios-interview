@@ -26,6 +26,16 @@ class Mindera_TestUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func testNormalFlow(){
+        
+        let app = XCUIApplication()
+        app.searchFields["Search"].doubleTap()
+        app.searchFields["Search"].typeText("dogs")
+        app/*@START_MENU_TOKEN@*/.keyboards.buttons["Search"]/*[[".keyboards.buttons[\"Search\"]",".buttons[\"Search\"]"],[[[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/.tap()
+        
+    }
+    
+
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
